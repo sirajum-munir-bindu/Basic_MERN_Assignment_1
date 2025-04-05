@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Start Navbar */
+
+.nav_bar {
+  height: 100px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+.nav_logo {
+  height: 36px;
+  width: 144px;
+  display: flex;
+  align-items: center;
+}
+
+.logo_png{
+    padding-left: 50px;
+}
+.logo_img {
+    height: 32px;
+    width: 50px;
+}
+
+
+.logo_text {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #000000;
+  margin-left: 8px;
+}
+
+.nav_ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.nav_ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav_text {
+  padding-left: 50px;
+}
+
+.nav_search_icon {
+   display: flex;
+   justify-content: space-evenly;
+    align-items: center;
+}
+
+.icon_0 {
+    padding-right: 50px
+}
+
+.nav_search_icon i {
+    width: 28pd;
+    height: 28px;
+    display: flex;
+    color: #000000;
+}
+/* End Navbar */
+
+/* Start Home >> Con_1 */
+
+.con_1{
+  height: 600px;
+  width: auto;
+  position: relative;
+}
+
+.con_photo_p{
+  width: 100%;;
+  height: 600px;
+}
+
+.text-box {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+  background-color: #fff3e5;
+  padding: 40px;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.arrival-text {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 3px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.con_text {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 40px;
+  color: #B88E2F;
+  margin-bottom: 15px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.description {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 14px;
+  color: #333333;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.buy-btn {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #B88E2F;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.buy-btn:hover {
+  background-color: #8f641d;
+}
+/* End Home >> Con_1 */
