@@ -57,6 +57,11 @@
   padding-left: 50px;
 }
 
+.nav_text.active {
+  font-size: 25px;
+  font-weight: 900;
+}
+
 .nav_search_icon {
    display: flex;
    justify-content: space-evenly;
