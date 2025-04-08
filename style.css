@@ -637,9 +637,117 @@
 
 /* Start Footer */
 .footer {
-  background-color: white;
-  height: 400px;
   width: auto;
+  height: 450px;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  border-top: 1px solid #eee;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  height: 250px;
+  width: auto;
+}
+
+.footer-column {
+  flex: 1 1 200px;
+  min-width: 200px;
+}
+
+.logo {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  padding-bottom: 35px;
+}
+
+.footer-column h4 {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+  color: #9F9F9F;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin: 8px 0;
+}
+
+.footer-column ul li a {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  list-style: none;
+  padding-bottom: 30px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+  color: #999;
+}
+
+address {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  color: #888;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+
+.newsletter-form {
+  display: flex;
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+  max-width: 250px;
+}
+
+.newsletter-form input {
+  border: none;
+  outline: none;
+  font-size: 12px;
+  flex-grow: 1;
+}
+
+.newsletter-form button {
+  background: none;
+  border: none;
+  color: #000;
+  font-size: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.footer-bottom {
+  text-align: left;
+  font-size: 12px;
+  color: #333;
+  padding: 20px 0 0 0;
+  border-top: 1px solid #eee;
+  margin-top: 20px;
 }
 
 /* End Footer */
